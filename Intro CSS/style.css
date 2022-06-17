@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(183, 208, 253);
+}
+p{
+    background-color: black;
+    color: blueviolet;
+    font-size: 25px;
+}
+/*Esta es la Forma de realizar comentarios en CSS*/
+/*Clases
+Se puede agregar una clase a varios elementos*/
+.clase-li{
+    color: red;
+}
+.clase-li-2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.clase-p{
+    color: orange;
+}
+.clase_titulo{
+    font-size: 100px;
+    background-color: aquamarine;
+}
+/*ID´S
+Sólo se puede agregar un ID para cada elemento*/
+#Lista_del_Super{
+    background-color: pink;
+    color: azure;
+}
+#Elemento_1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#Parrafo_2{
+    color: greenyellow;
+}
+#Titulo_Principal{
+    color: yellowgreen;
+}
+
+/*Selectores Avanzados*/
+
+.Clase_Div .Clase_UL .clase_anidada{
+    background-color: yellow;
+}
+.clase_anidada{
+    background-color: aqua;
+}

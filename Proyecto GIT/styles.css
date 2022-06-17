@@ -1,0 +1,48 @@
+body{
+    max-height: max-content;
+    background-image: url("Imgs/Wall.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#Titulo_Principal{
+    font-size: 60px;
+    background-color: rgb(135, 222, 174);
+    color: red;
+}
+
+#Naturgy_Img{
+    margin-top: 20px;
+    outline-color: red;
+    border-radius: 50px;
+    height: 90px;
+}
+
+#Funko{
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 60px;
+    height: 180px;
+}
+
+.Subtitulos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: red;
+    background-color: aquamarine;
+}
+
+.Parrafos{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.Elements{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+}

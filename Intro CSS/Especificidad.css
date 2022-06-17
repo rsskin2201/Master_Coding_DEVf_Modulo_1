@@ -1,0 +1,33 @@
+/*Pseudoclases y Pseudoelementos*/
+
+body{
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-family: 'Fascinate', cursive;
+}
+
+.mi_boton{
+    height: 80px;
+    width: 160px;
+}
+
+.mi_boton:hover{
+    background-color: orange;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.mi_input{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.mi_input:focus{
+    outline-color: red;
+    border-radius: 10px;
+    height: 40px;
+}
+

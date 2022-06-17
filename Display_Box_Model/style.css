@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box; /* -> Suma width + margin + padding + border*/
+}
+
+span{
+    display: inline-block;
+}
+
+.Titulo{
+    width: 400px; /* 400 - 10 de border */
+    height: 200px; /* 200 - 50 de padding - 10 de border*/
+
+    border: 5px solid red;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+    /* Forma 1 de hacer el padding [Se realiza una etiqueta por lado]
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    
+    Forma 2 de hacer el padding [Se agregan los 4 lados en una sola linea]
+    padding: 50px 100px 150px 200px; -> Arriba, Derecha, Abajo, Izquierda
+
+    Forma 3 de hacer el padding [Se unifican las primera medidas]
+    padding: 100px 200px 150px;  -> Arriba, Derecha-Izquierda, Abajo
+    
+    Forma 4 de hacer el padding [Se unifican las medidas en 2 bloques]
+    padding: 100px 200px; -> Arriba-Abajo, Derecha-Izquierda
+
+    Forma 5 de hacer el padding [Se unifican las medidas en 1 bloque]
+    padding: 100px; -> La medida aplica para los 4 lados
+
+    Nota: Aplica para Margin, Padding y Border
+    */
